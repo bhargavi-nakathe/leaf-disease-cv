@@ -1,0 +1,11 @@
+# dataset — too large for GitHub
+data/raw/
+data/train/
+data/val/
+plantvillage-dataset.zip
+data.zip
+
+# python
+venv/
+__pycache__/
+*.pyc
