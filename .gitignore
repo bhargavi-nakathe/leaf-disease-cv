@@ -3,7 +3,12 @@ data/raw/
 data/train/
 data/val/
 plantvillage-dataset.zip
-data.zip
+*.zip
+
+models/
+*.pth
+*.pt
+*.ckpt
 
 # python
 venv/
