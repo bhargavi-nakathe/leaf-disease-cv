@@ -6,7 +6,7 @@ from model import SmallCNN
 from dataloader import train_loader, val_loader
 
 # ── setup ──────────────────────────────────────────────
-EPOCHS     = 1
+EPOCHS     = 3
 LR         = 0.001
 DEVICE     = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODEL_DIR  = "models"
