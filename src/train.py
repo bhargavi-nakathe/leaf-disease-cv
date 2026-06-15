@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import matplotlib.pyplot as plt
 from model import SmallCNN
-from dataloader import train_loader, val_loader
+from dataset import train_loader, val_loader
 
 # ── setup ──────────────────────────────────────────────
 EPOCHS     = 3
@@ -106,5 +106,5 @@ ax2.set_ylabel("Accuracy %")
 ax2.legend()
 
 plt.tight_layout()
-plt.savefig("track/loss_curve.png", dpi=150)
-print("\nPlot saved → track/loss_curve.png")
+plt.savefig("report/loss_curve2.png", dpi=150)
+print("\nPlot saved → report/loss_curve2.png")
