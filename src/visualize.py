@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import torchvision
-from dataloader import train_loader, train_dataset
+from dataset import train_loader, train_dataset
 
 # Step 1: grab one batch from the train loader
 imgs, labels = next(iter(train_loader))
@@ -28,6 +28,6 @@ for i, ax in enumerate(axes.flatten()):
     ax.axis("off")
 
 plt.tight_layout()
-plt.savefig("track/task2.png", dpi=150)
-print("Saved to track/task2.png")
+plt.savefig("report/visualize_batch.png", dpi=150)
+print("Saved to report/visualize_batch.png")
 plt.show()
