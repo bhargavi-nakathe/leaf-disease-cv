@@ -15,3 +15,8 @@ ToTensor does three things. First it converts the PIL image object into a PyTorc
 
 "A CNN processes images by sliding filters over local patches and stacking layers to build from simple to complex features. Each layer only sees a small neighbourhood. A Vision Transformer splits the image into fixed patches, embeds each patch as a vector, then uses self-attention so every patch can directly relate to every other patch from the very first layer. CNN builds global understanding gradually through depth. Transformer gets global context immediately through attention. For my dataset of 9,102 images CNN was the better choice — Vision Transformers need much larger datasets to train effectively from scratch because they have no built-in assumption about spatial locality.
  
+
+**Freeze** when the dataset is small and the pretrained features are already useful. This reduces overfitting and speeds up training.
+**Fine-tune** when enough data is available and the target task differs from the original pretrained task. This allows the network to adapt its learned features to the new domain.
+
+Freezing means "use the pretrained knowledge as-is." Fine-tuning means "allow the pretrained knowledge to adapt to my dataset."
