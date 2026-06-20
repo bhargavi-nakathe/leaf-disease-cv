@@ -5,7 +5,7 @@
 Five misclassified validation images were saved and reviewed from the 
    ```text 
     reports/errors/
-     ``` 
+``` 
 folder.
 
 A significant portion of the observed errors involved the Pepper Bell Bacterial Spot class. This suggests that the model occasionally struggles to distinguish bacterial spot symptoms from visually similar leaf conditions.
