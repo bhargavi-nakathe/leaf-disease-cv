@@ -1,0 +1,7 @@
+venv/
+data/
+notebooks/
+predict_image/
+__pycache__/
+.git/
+*.pyc
