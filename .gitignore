@@ -10,6 +10,8 @@ models/
 *.pt
 *.ckpt
 
+predict_image/
+
 # python
 venv/
 __pycache__/
