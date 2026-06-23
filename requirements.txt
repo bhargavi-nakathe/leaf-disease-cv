@@ -1,5 +1,8 @@
-torch version       : 2.12.0+cpu
-torchvision version : 0.27.0+cpu
-Pillow version      : 12.2.0
-matplotlib version  : 3.10.9
+torch 
+torchvision 
+Pillow 
+matplotlib 
 scikit-learn
+fastapi 
+uvicorn 
+python-multipart

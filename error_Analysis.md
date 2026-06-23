@@ -33,3 +33,20 @@ These results suggest that disease classes with visually similar spotting patter
 ## Conclusion
 
 Most model errors occurred between disease categories that share similar visual symptoms rather than between healthy and diseased leaves. Additional training data, targeted augmentation, or partial fine-tuning of deeper network layers may further reduce these confusions.
+
+
+
+Smoke Test Images: 6 unseen leaf images
+Correct Predictions: 3/6
+Smoke Test Accuracy: 50%
+Correctly Classified Classes:
+Pepper Bell Bacterial Spot
+Pepper Bell Healthy
+Tomato Healthy
+Misclassified Classes:
+Tomato Bacterial Spot → Predicted as Tomato Early Blight
+Tomato Late Blight → Predicted as Tomato Healthy
+Tomato Early Blight → Predicted as Tomato Healthy
+Confidence Range: 32.80% – 90.91%
+Observation: The model performs well on healthy leaves and pepper diseases but struggles to distinguish between visually similar tomato disease classes.
+Conclusion: The inference pipeline works correctly, but additional training or fine-tuning may improve classification performance for tomato diseases.
