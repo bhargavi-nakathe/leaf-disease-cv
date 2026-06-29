@@ -8,7 +8,7 @@ sys.path.append(os.path.abspath('src'))
 from dataset import train_loader, val_loader
 
 # ── setup ──────────────────────────────────────────────
-EPOCHS     = 3
+EPOCHS     = 5
 LR         = 0.001
 DEVICE     = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODEL_DIR  = "models"
